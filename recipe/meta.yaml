@@ -1,4 +1,4 @@
-{% set version = '2.1.4' %}
+{% set version = "2.1.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/BoolNet_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/BoolNet/BoolNet_{{ version }}.tar.gz
-  sha256: 7a171f620b073e28a9e689dcc6a766189ef36c3f8f67b020da99be047eb7a749
+  sha256: 13579536a816cf0fa424916dfa1f868309421f8a3ed389d3fa63ba9d06d3de85
 
 build:
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
