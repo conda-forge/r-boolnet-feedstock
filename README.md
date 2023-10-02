@@ -3,6 +3,7 @@ About r-boolnet-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-boolnet-feedstock/blob/main/LICENSE.txt)
 
+
 About r-boolnet
 ---------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=BoolNet
 Package license: Artistic-2.0
 
 Summary: Provides methods to reconstruct and generate synchronous, asynchronous, probabilistic and temporal Boolean networks, and to analyze and visualize attractors in Boolean networks.
+
 About r-boolnet
 ---------------
 
